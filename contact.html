@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./img/favcon.png" type="image/x-icon">
+        <title>Contact</title>
+        <script src="./js/tota11y.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.production.css">
+    </head>
+    <body>
+        <header class="page-header">
+            <img src="./img/CoralLogo.png"  alt="Coral's Logo" class="page-header__item"> <!--This is the video of Coral Tribble-->
+            <nav class="main-navigation page-header__item">
+                <ul role="menubar" class="navigation-list">
+                    <li role="presentation">
+                        <a href="./index.html" role="menuitem" class="navigation-list__item">Home</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="./about.html" role="menuitem" class="navigation-list__item">Biography</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="./work.html" role="menuitem" class="navigation-list__item">Work</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="./contact.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="contact__page">
+        <section>
+            <h1>Contact Form</h1>
+            <form action="contact.html" method="post" id="contact__form">
+                <label for="contact-name">Name: </label>
+                <br>
+                <input type="text" id="contact-name" required>
+                <br>
+                <label for="contact-email">E-mail: </label>
+                <br>
+                <input type="email" id="contact-email" required>
+                <br>
+                <label for="contact-telephone">Telephone: </label>
+                <br>
+                <input type="tel" id="contact-telephone" required>
+                <br>
+                <label for="contact-message">Message: </label>
+                <br>
+                <textarea rows="4" cols="30" id="contact-message" maxlength="240" placeholder="Hi Coral Marie,"></textarea>
+                <br>
+                <br>
+                <button type="submit" value="Send Message">Send Message</button>
+            </form>
+            <address>
+            <div class="contact__info">
+                Coral Marie Tribble<br>
+                In the City<br>
+                Charlotte, NC<br>
+                United States of America<br>
+            </div>
+            <div class="contact__links">
+                <a href="tel:+14805674416">Tel:+1 480 567 4416</a>
+                <br>
+                <a href="mailto:coraltribble@gmail.com">Email: CoralTribble@gmail.com</a>
+            </div>
+            <div class="contact__direct">
+            <a href="mailto:coraltribble@gmail.com" class="get_in_touch">Email Directly</a> 
+            <p> If you hate the wait of contact forms, and prefer direct communication: </p>
+            <p>Click the button to email Coral now!</p>
+            </div>
+        </address>
+        </section>
+        </main>
+        <footer class="page-footer">
+            <p class="find_me">Find Me Online: </p>
+            <div class="social-media">
+                <a href="https://linkedin.com/" target="_blank" rel="noreferrer"><img src="./img/Linked-White-Logo.png" alt="LinkedIn"></a>
+                <a href="https://github.com/" target="_blank" rel="noreferrer"><img src="./img/Git-White-Logo.png" alt="GitHub"></a>
+                <a href="https://x.com/" target="_blank" rel="noreferrer"><img src="./img/Twitter-White-Logo.png" alt="Twitter"></a>
+            </div>
+        <br>
+        <div>
+            <a href="https://careerfoundry.com" class="button__career" target="_blank" rel="noreferrer">Learn More at Career Foundry</a>
+        </div>
+        <div>
+            <br>
+            <a href="#">Back to top</a>
+        </div>
+          </footer>
+    </body>
+</html>
