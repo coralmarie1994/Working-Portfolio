@@ -545,8 +545,7 @@ opacity: .6;
         margin-left:30px;
     }
     .project__grid {
-        -ms-grid-columns:1fr;
-        grid-template-columns:1fr; 
+        grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); 
         display:-webkit-box; 
         display:-ms-flexbox; 
         display:flex;
@@ -554,14 +553,17 @@ opacity: .6;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         text-align: center;
         -webkit-box-flex:0;
             -ms-flex:0 1 auto;
                 flex:0 1 auto;
+        width:80%;
     }
     .project__item{
         height:100%;
-        width:100%
     }
     .profile{
         display: -webkit-box;
@@ -623,6 +625,7 @@ opacity: .6;
         -webkit-box-flex:0;
             -ms-flex:0 1 auto;
                 flex:0 1 auto;
+        width:85%;
     }
     .project__item{
         height:100%;
