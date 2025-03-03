@@ -705,8 +705,8 @@ opacity: .6;
 #rect2, #rect7, #rect9, #rect10, #rect13, #rect14, #rect16,#rect1, #rect3, #rect4, #rect5, #rect6, #rect8, #rect11, #rect12, #rect15 {
     -webkit-animation: 6s color-change 1 ease-in;
             animation: 6s color-change 1 ease-in;
-    -webkit-animation-delay:4s;
-            animation-delay:4s;
+    -webkit-animation-delay:3s;
+            animation-delay:3s;
 }
 @-webkit-keyframes color-change {
     0% {
@@ -761,8 +761,8 @@ opacity: .6;
     position: relative;
     -webkit-animation: 5s sunshine 1 normal linear;
             animation: 5s sunshine 1 normal linear;
-    -webkit-animation-delay: 4s;
-            animation-delay: 4s;
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
     -webkit-animation-fill-mode: none;
             animation-fill-mode: none;
   }
