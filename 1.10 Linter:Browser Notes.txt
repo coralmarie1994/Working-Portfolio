@@ -1,0 +1,11 @@
+
+1.10 Notes
+Linters
+HTML W3 Validator
+Errors thrown on about.html for Inkscape attributes, however, no errors found on the browser 
+HTMLHint
+Stylelint
+Changed the grid style for errors thrown for the grid/column rows being split to two lines for additional webkits
+
+Crossbrowers
+Error found on mobile page of work, adjusted margins to take 90% of width of page to adjust for error
